@@ -1,0 +1,178 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "IT Test #1",
+        "user": 1,
+        "description": "This is test for IT category #1...",
+        "price": 50,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "IT test #2",
+        "user": 1,
+        "description": "This is test for IT category #2...",
+        "price": 114,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Fitness test #1",
+        "user": 1,
+        "description": "This is test for Fitness category #1...",
+        "price": 289,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "Fitness test #2",
+        "user": 1,
+        "description": "This is test for Fitness category #1...",
+        "price": 89,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "title": "IT",
+        "user": 1,
+        "slug": "it",
+        "parent_id": null,
+        "products": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "title": "Fitness",
+        "user": 1,
+        "slug": "fitness",
+        "parent_id": null,
+        "products": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "products.order",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "message": "jnmkmkmkmmk",
+        "address": "test address #1",
+        "name": "Gallery",
+        "email": "petro.lozhyk@email.com",
+        "total_price": 403
+    }
+},
+{
+    "model": "products.order",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "message": "sdfsdf",
+        "address": "sdfsdfsdf",
+        "name": "tesdfsd",
+        "email": "fsdfsdf@sdf.sdf",
+        "total_price": 378
+    }
+},
+{
+    "model": "products.order",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "message": "dfgdfgdfg",
+        "address": "gdfgdfg",
+        "name": "dftdfg",
+        "email": "dfgf@dgdf",
+        "total_price": 378
+    }
+},
+{
+    "model": "products.order",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "message": "test testt eTest testTest testTest testTest testTest test",
+        "address": "test address #1",
+        "name": "Test test",
+        "email": "test@te.st",
+        "total_price": 333
+    }
+},
+{
+    "model": "products.orderitem",
+    "pk": 1,
+    "fields": {
+        "product": 2,
+        "order": 4
+    }
+},
+{
+    "model": "products.orderitem",
+    "pk": 2,
+    "fields": {
+        "product": 3,
+        "order": 4
+    }
+},
+{
+    "model": "products.orderitem",
+    "pk": 3,
+    "fields": {
+        "product": 4,
+        "order": 5
+    }
+},
+{
+    "model": "products.orderitem",
+    "pk": 4,
+    "fields": {
+        "product": 3,
+        "order": 5
+    }
+},
+{
+    "model": "products.orderitem",
+    "pk": 5,
+    "fields": {
+        "product": 4,
+        "order": 6
+    }
+},
+{
+    "model": "products.orderitem",
+    "pk": 6,
+    "fields": {
+        "product": 3,
+        "order": 6
+    }
+}
+]
